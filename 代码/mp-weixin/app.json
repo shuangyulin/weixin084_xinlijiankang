@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/zuixinzixun/list",
+    "pages/zuixinzixun/add-or-update",
+    "pages/zuixinzixun/detail",
+    "pages/xinlichanpin/list",
+    "pages/xinlichanpin/add-or-update",
+    "pages/xinlichanpin/detail",
+    "pages/chanpinfenlei/list",
+    "pages/chanpinfenlei/add-or-update",
+    "pages/chanpinfenlei/detail",
+    "pages/yinleliliao/list",
+    "pages/yinleliliao/add-or-update",
+    "pages/yinleliliao/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discussxinlichanpin/list",
+    "pages/discussxinlichanpin/add-or-update",
+    "pages/discussxinlichanpin/detail",
+    "pages/discussyinleliliao/list",
+    "pages/discussyinleliliao/add-or-update",
+    "pages/discussyinleliliao/detail",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生心理健康服务微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xinlichanpin/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "心理产品"
+      },
+      {
+        "pagePath": "pages/yinleliliao/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "音乐理疗"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "交流论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

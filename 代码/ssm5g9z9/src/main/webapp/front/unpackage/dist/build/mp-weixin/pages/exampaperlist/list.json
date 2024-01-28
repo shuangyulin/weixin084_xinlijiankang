@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#1798F2",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "试卷列表",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

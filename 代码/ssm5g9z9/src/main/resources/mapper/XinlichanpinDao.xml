@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.XinlichanpinDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.XinlichanpinEntity" id="xinlichanpinMap">
+        <result property="chanpinmingcheng" column="chanpinmingcheng"/>
+        <result property="chanpinfenlei" column="chanpinfenlei"/>
+        <result property="chanpintupian" column="chanpintupian"/>
+        <result property="chanpinxiangqing" column="chanpinxiangqing"/>
+        <result property="price" column="price"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.XinlichanpinVO" >
+		SELECT * FROM xinlichanpin  xinlichanpin         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.XinlichanpinVO" >
+		SELECT  xinlichanpin.* FROM xinlichanpin  xinlichanpin
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.XinlichanpinView" >
+
+		SELECT  xinlichanpin.* FROM xinlichanpin  xinlichanpin 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.XinlichanpinView" >
+		SELECT * FROM xinlichanpin  xinlichanpin <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	
+</mapper>
